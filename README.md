@@ -13,25 +13,28 @@ Quick start
 
    NOTE: You can get an anonymous clone of the project using:
 
-      git clone git://github.com/facom/PiMining.git
+   $ git clone git://github.com/facom/PiMining.git
 
    Then you will be able to get updates using 'git pull'.
 
-2. Download numbers:
+2. Download numbers: Get the file "pi.bin.bz2" from http://bit.ly/pi-bin
+   (411 MB).  Place it in the "numbers" folder and uncompress it:
 
-      make download
+   $ bunzip2 pi.bin.bz2
 
 3. Compile utilities:
 
-      make compile
+   $ make compile
 
 4. Run examples in python
 
-      python pi.py
+   $ python pi.py
 
 5. Search for a string:
 
-      ./pi.out 123 1000
+   $ ./pi.out 123 1000
+
+   this command search string 123 in the first 1000 digits.
 
 For the contirbutor
 ===================
