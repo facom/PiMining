@@ -1,8 +1,6 @@
 PiMining
-========
-
-by Jorge I. Zuluaga (C) 2013
-----------------------------
+Jorge I. Zuluaga (C) 2013
+-------------------------
 
 This set of scripts and C programs are intended to mine the digits of
 pi and running a diversity of analysis on them.
