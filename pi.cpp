@@ -51,7 +51,7 @@ int main(int argc,char *argv[])
   Long maxdigits;
 
   SI=sizeof(Int);
-  FPI=fopen("pi.bin","rb");
+  FPI=fopen("numbers/pi.bin","rb");
 
   if(argc<=1){
     fprintf(stderr,"You should provide an integer string to search.\n");
