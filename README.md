@@ -17,8 +17,9 @@ Quick start
 
    Then you will be able to get updates using 'git pull'.
 
-2. Download numbers: Get the file "pi.bin.bz2" from http://bit.ly/pi-bin
-   (411 MB).  Place it in the "numbers" folder and uncompress it:
+2. Download digits.  For geting the 1 billion digits binary file,
+   download the file "pi.bin.bz2" from http://bit.ly/pi-bin (411 MB).
+   Place it in the "numbers" folder and uncompress it:
 
    $ bunzip2 pi.bin.bz2
 
