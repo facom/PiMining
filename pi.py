@@ -59,6 +59,17 @@ def piSearch(digits,maxdigits=1000):
         if query==digits:finds+=[i]
     return finds
 
+def piFrequency(ndigits):
+    from numpy import zeros
+    h=zeros(10)
+    for i in xrange(ndigits):
+        FPI.seek(i,0)
+        data=FPI.read(1)
+        fmt="%db"%1
+        d=struct.unpack(fmt,data)
+        h[d]+=1
+    return h
+
 if __name__=="__main__":
 
     #Get Digits
@@ -70,9 +81,7 @@ if __name__=="__main__":
     print "Value: %s"%value
     
     #Histogram digits
-    from numpy import histogram
-    bins=range(10)
-    h,b=histogram(digits,bins)
+    h=piFrequency(1000)
     print "Frequence of digits: ",h
 
     #Linear search
