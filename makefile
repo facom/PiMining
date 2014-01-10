@@ -9,4 +9,4 @@ clean:
 #ONLY FOR CONTRIBUTORS
 commit:
 	git commit -am "Commit"
-	git push master
+	git push origin master
